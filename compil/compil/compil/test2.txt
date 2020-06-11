@@ -1,0 +1,31 @@
+float bod = 22.75
+float w = 38.31
+int x = 84
+int max = 100
+int arg = 255
+
+def proc
+{
+
+    w = w + bod
+    print("example1")
+    print(" ")
+}
+
+{
+if (arg > 100) or (x < max) then
+    {
+        call proc
+    }
+
+while (x < max) do {
+    x = x + 1
+    print("example3")
+    print(x)
+    print(" ")
+    if (x == 97) then {
+       break
+    }
+}
+}
+^
